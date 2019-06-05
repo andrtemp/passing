@@ -1,0 +1,102 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.menu-bar {
+    float: left;
+    width: 15%;
+}
+
+.menu-items{
+    list-style: none;
+}
+
+.menu-items a{
+    background: #adb5bd;
+    text-decoration: none;
+    color: white;
+    padding: 2em;
+    display: block;
+    border-radius: 1em;
+    margin: .5em;
+}
+
+.form-group{
+    margin: 1em;
+
+}
+
+.form-group input{
+    width: 100%;
+    border-radius: .5em;
+    padding: 1em;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.btn{
+    padding: 1.5em;
+    border-radius: .5em;
+    color: white;
+    background: rgb(209, 209, 209);
+}
+
+.table-guests{
+    border: 2px solid black;
+    text-align: left;
+}
+
+.table-guests thead{
+    font-style: italic;
+}
+
+.table-guests td{
+    border: 1px solid black;
+    padding: 2em;
+}
